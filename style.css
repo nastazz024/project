@@ -1,0 +1,627 @@
+@font-face {
+    font-family: HelveticaNeueLTPro; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueLTPro-It.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Merriweather; /* Имя шрифта */
+    src: url(fonts/Merriweather-LightItalic.otf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: MONTSERRAT; /* Имя шрифта */
+    src: url(fonts/Montserrat-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+ @font-face {
+    font-family: MONTSERRATLight; /* Имя шрифта */
+    src: url(fonts/MontserratAlternates-Light.otf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    width: 1340px;
+}
+
+.header{
+    width: 1340px;
+    height: 945px;
+    background-color: white;
+}
+
+.logo{
+    position: absolute;
+    left: 48%;
+    top: 0%;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-item {float: left;}
+
+.right-item {float: right;}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 55px;
+    padding: 0 20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    color: #979797;
+}
+
+a:hover{
+    color: black
+}
+
+.left{
+    margin-left: 26%;
+}
+
+.right{
+    margin-right: 23%;
+}
+
+.header-title{
+    font-size: 44px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+.header-subtitle{
+    font-family: 'Merriweather';
+    font-size: 16px;
+    text-align: center;
+    margin: 0%;
+}
+
+.header-content{
+    margin-top: 354px;
+}
+
+a.button{
+    position: absolute;
+    color: black; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background: white; /* фон кнопки */
+    padding: 15px 35px 15px 35px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border: 1px solid black;
+    left: 45%;
+    margin-top: 50px;
+    font-family: 'MONTSERRAT';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ellipse{
+    margin-top: 282px;
+    margin-left: 675px;
+    display: table-caption;
+}
+
+.about{
+    width: 1340px;
+    height: 1332px;
+    background-color: #1d1d1d;
+}
+
+.points{
+    position: relative;
+    margin-left: 665px;
+    display: table-caption;
+    margin-top: 150px;
+}
+
+.point2{
+    margin-top: 97px;
+}
+
+.point4{
+    margin-top: 195px;
+}
+
+.point3{
+    position: relative;
+    margin-left: 655px;
+    margin-top: 209px;
+}
+
+.y1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 140px;
+    left: 450px;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.dy1{
+    font-size: 15px;
+    color: #909090;
+    position: absolute;
+    font-family: 'MONTSERRATLight';
+    margin-top: 220px;
+    left: 220px;
+}
+
+.y2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 260px;
+    left: 735px;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.dy2{
+    font-size: 15px;
+    color: #909090;
+    position: absolute;
+    font-family: 'MONTSERRATLight';
+    margin-top: 340px;
+    left: 785px;
+}
+
+.y3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 500px;
+    left: 450px;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.dy3{
+    font-size: 15px;
+    color: #909090;
+    position: absolute;
+    font-family: 'MONTSERRATLight';
+    margin-top: 580px;
+    left: 230px;
+}
+
+.y4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 900px;
+    left: 735px;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.dy4{
+    font-size: 15px;
+    color: #909090;
+    position: absolute;
+    font-family: 'MONTSERRATLight';
+    margin-top: 980px;
+    left: 785px;
+}
+
+.buildb{
+    position: absolute;
+    z-index: 2;
+    width: 1345px;
+    margin-top: 1180px;
+}
+
+.buildw{
+    position: absolute;
+    z-index: 1;
+    margin-top: 1180px;
+    width: 1345px;
+}
+
+.line{
+    position: absolute;
+    
+    margin-left: 675px;
+}
+
+.team{
+    width: 1340px;
+    height: 724px;
+    background-color: white;
+}
+
+.t1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.td1{
+    color: #909090;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    text-align: center;
+}
+
+.layer-1{
+    position: absolute;
+}
+
+.ph1{
+    margin-left: 610px;
+    margin-top: 124px;
+}
+
+.name1{
+   
+    margin-top: 15px;
+    margin-left: 610px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.position1{
+    margin-left: 630px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909090;
+}
+
+.inst1{
+    margin-left: 10px;
+}
+
+.twit1{
+    margin-left: 645px;
+    margin-top: 10px;
+}
+
+.layer-2{
+    margin-left: 410px;
+}
+
+.ph2{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 186px;
+}
+
+.name2{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 330px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.position2{
+    position: absolute;
+    text-align: center;
+    margin-left: 495px;
+    margin-top: 365px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909090;
+}
+
+.inst2{
+    margin-left: 10px;
+}
+
+.twit2{
+    margin-left: 535px;
+    margin-top: 405px;
+}
+
+.layer-3{
+    position: absolute;
+    
+}
+
+.ph3{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 186px;
+}
+
+.name3{
+    margin-left: 305px;
+    margin-top: 330px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.position3{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909090;
+}
+
+.inst3{
+    margin-left: 10px;
+}
+
+.twit3{
+    margin-left: 330px;
+    margin-top: 40px;
+}
+
+.services{
+    position: absolute;
+    width: 1340px;
+    height: 1664px;
+    background-color: white;
+}
+
+.servicesimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.s1{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+
+.sd1{
+    position: absolute;
+    color: #909090;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    margin-left: 505px;
+    margin-top: 300px;
+}
+
+.simg1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.simg2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 600px;
+}
+
+.simg3{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1000px;
+}
+
+.sdesc{
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 700px;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sdesc1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 700px;
+    margin-left: 515px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sdesc2{
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 700px;
+    margin-left: 915px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one{
+    font-size: 26px;
+}
+
+.two{
+    font-size: 18px;
+    color: #909090
+}
+
+.blog{
+    position: absolute;
+    margin-top: 920px;
+    width: 1340px;
+    height: 1000px;
+}
+
+a.button1{
+    width: 110px;
+    position: absolute;
+    color: black; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background: white; /* фон кнопки */
+    padding: 15px 35px 15px 35px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-top: 450px;
+    font-family: 'MONTSERRAT';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bimg{
+    position: absolute;
+    margin-left: 190px;
+}
+
+.cimg{
+    position: absolute;
+    margin-top: 1400px;
+}
+
+.c1{
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin-left: 600px;
+    margin-top: 1800px;
+}
+
+.cd1{
+    position: absolute;
+    color: #909090;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    margin-left: 575px;
+    margin-top: 1850px;
+}
+
+.phone{
+    margin-left: 400px;
+    margin-top: 1950px;
+    position: absolute;
+}
+
+.mail{
+    margin-left: 670px;
+    margin-top: 1950px;
+    position: absolute;
+}
+
+.pin{
+    margin-left: 925px;
+    margin-top: 1950px;
+    position: absolute;
+}
+
+.contact{
+    position: relative;
+    width: 1340px;
+    height: 1000px;
+}
+
+.num{
+    margin-left: 375px;
+    margin-top: 1980px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #909090;
+}
+
+.adr{
+    margin-left: 620px;
+    margin-top: 1980px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #909090;
+}
+
+.mai{
+    margin-left: 870px;
+    margin-top: 1980px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #909090;
+}
+
+.form{
+    position: absolute;
+    margin-top: 2200px;
+}
+
+.input{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 280px;
+    width: 723px;
+    padding: 15px 35px 15px 35px;;
+}
+
+.mess{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 775px;
+    height: 200px;
+    padding: 10px;
+}
+
+a.button3{
+    text-align: center;
+    width: 725px;
+    position: absolute;
+    color: white; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background: black; /* фон кнопки */
+    padding: 15px 35px 15px 35px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border: 1px solid black;
+    left: 280px;
+    font-family: 'MONTSERRAT';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    margin-top: 1870px;
+    margin-left: 510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
